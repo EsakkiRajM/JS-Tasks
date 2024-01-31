@@ -1,1 +1,97 @@
-Task
+1. Write a blog on Difference between HTTP1.1 vs HTTP2?
+******************************************************
+
+HTTP/1.1 - The Legacy Protocol:
+------------------------------
+
+HTTP/1.1 has been the workhorse of web communication since its standardization in 1997. Despite serving admirably for many years, HTTP/1.1 has certain limitations that hinder its ability to keep up with the increasing demands of modern web applications.
+
+i). Connection Handling:
+=======================
+
+In HTTP/1.1, each resource (e.g., images, scripts, stylesheets) requires a separate connection to be established. This process leads to latency as each connection needs to be opened and closed individually.
+
+ii). Header Overhead:
+====================
+
+HTTP/1.1 headers contain redundant information, leading to increased overhead. With every request, the same headers are sent repeatedly, consuming bandwidth and affecting performance.
+
+iii). No Support for Multiplexing:
+=================================
+
+Multiplexing allows multiple requests and responses to be sent simultaneously over a single connection. Unfortunately, HTTP/1.1 lacks this feature, resulting in inefficient resource utilization.
+
+
+HTTP/2 - The Next Generation Protocol:
+-------------------------------------
+
+Recognizing the shortcomings of HTTP/1.1, the Internet Engineering Task Force (IETF) introduced HTTP/2 in 2015. This newer version was designed to address the challenges faced by its predecessor and enhance the overall web browsing experience.
+
+i). Multiplexing:
+================
+
+One of the most significant improvements in HTTP/2 is the introduction of multiplexing. This feature enables multiple streams (requests and responses) to be sent concurrently over a single connection, reducing latency and significantly speeding up the loading time of web pages.
+
+ii). Header Compression:
+=======================
+
+HTTP/2 utilizes header compression techniques such as HPACK, which reduces redundant header information. This leads to decreased overhead, resulting in more efficient use of bandwidth and improved performance.
+
+iii). Binary Protocol:
+=====================
+
+Unlike HTTP/1.1, which uses plain text for communication, HTTP/2 employs a binary protocol. This binary framing allows for more compact and efficient data transfer, reducing parsing complexity and facilitating faster communication between clients and servers.
+
+iv) Server Push:
+================
+
+HTTP/2 introduces server push, a feature that allows the server to proactively send resources to the client before they are explicitly requested. This minimizes the need for additional round trips, further enhancing performance.
+
+-----------------------------------*------------------------------------------------*-------------------------------------------*-------------------------------------
+
+2. Write a blog about objects and its internal representation in Javascript?
+
+Objects:
+-------
+
+i) Objects as Key-Value Pairs:
+=============================
+
+In JavaScript, objects are collections of key-value pairs, where keys are strings or symbols, and values can be of any data type. This key-value structure allows developers to organize and represent data in a way that closely resembles real-world entities.
+
+ii) Dynamic Nature:
+==================
+
+One of the defining features of JavaScript objects is their dynamic nature. Properties can be added, modified, or removed at runtime, providing a high degree of flexibility. This dynamic behavior is made possible by the underlying mechanisms governing the internal representation of objects.
+
+Internal Representation:
+-----------------------
+
+i) Property Descriptors:
+=========================
+
+Each property in a JavaScript object is associated with a property descriptor, an internal representation that defines various attributes of the property. These attributes include whether the property is writable, enumerable, and configurable.
+
+ii) Hidden Classes and Shapes:
+=============================
+
+JavaScript engines use hidden classes and shapes to optimize object property access and improve performance. When an object is created, the engine assigns it a hidden class, and as properties are added or removed, the hidden class may change. This optimization technique enhances the speed of property lookups.
+
+iii) Memory Management:
+======================
+
+JavaScript engines employ garbage collection mechanisms to manage memory. When an object is no longer reachable, it becomes a candidate for garbage collection, freeing up resources and preventing memory leaks.
+
+Practical Implications:
+-----------------------
+
+i) Object-oriented Programming (OOP):
+====================================
+
+JavaScript's object-oriented nature allows developers to use objects as a foundation for building classes and prototypes. This facilitates the creation of reusable and extensible code.
+
+ii) JSON Serialization:
+======================
+
+Objects play a crucial role in JavaScript Object Notation (JSON), a popular data interchange format. Understanding the internal representation of objects is essential when working with JSON and converting objects to strings or parsing JSON data.
+
