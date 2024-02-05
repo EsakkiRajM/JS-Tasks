@@ -16,6 +16,6 @@ xhr.onload = function(){
     let output = JSON.parse(xhr.responseText);
     //console.log(output);
     for (let op of output){
-        console.log(op.flags);
+        console.log(op.flag[0]);
     }
 }
