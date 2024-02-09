@@ -21,7 +21,9 @@ c) Write a method getPG, which takes an array of base type Movie as its argument
 
 d) Write a piece of code that creates an instance of the class Movie with the title “Casino Royale”, the studio “Eon Productions”, and the rating “PG­13”
 
-2. The question is this img - ![Day6_Task_07Feb2024/ClassDiagram_Circle.png](https://github.com/EsakkiRajM/JS-Tasks/blob/day6tasks/Day6_Task_07Feb2024/ClassDiagram_Circle.png)
+2. The question is this img 
+
+ ![Day6_Task_07Feb2024/ClassDiagram_Circle.png](https://github.com/EsakkiRajM/JS-Tasks/blob/day6tasks/Day6_Task_07Feb2024/ClassDiagram_Circle.png)
 
 3. Write a “person” class to hold all the details.
 
