@@ -2,7 +2,7 @@
 
 - Code file is [text](RestCountries.js)
 
-- I have attached the output is word doucment, document name is "[text](Day7_Task_08Feb2024.docx)"
+- I have attached the output is word doucment, the document is "[text](Day7_Task_08Feb2024.docx)"
 
 - I used js language in this task
 
