@@ -1,8 +1,8 @@
 - Day-7 task is completed and submitted, kindly check and verify it.
 
-- Code file is [text](RestCountries.js)
+- Code file is [RestCountries.js](RestCountries.js)
 
-- I have attached the output is word doucment, the document is "[text](Day7_Task_08Feb2024.docx)"
+- I have attached the output is word doucment, the document is "[Day7task_Outputdoc](Day7_Task_08Feb2024.docx)"
 
 - I used js language in this task
 
